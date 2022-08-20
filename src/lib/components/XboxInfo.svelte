@@ -4,7 +4,7 @@
 	export let description: string[];
 </script>
 
-<div class="flex justify-center items-center flex-col mx-10 hover:bg-black">
+<div class="flex justify-center items-center flex-col">
 	<img src={image} alt="xbox" class="w-[600px] h-[600px]">
 	<h1 class="text-white underline text-4xl py-10 text-center">{title}</h1>
 	{#each description as text}

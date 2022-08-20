@@ -5,8 +5,9 @@ module.exports = {
 		extend: {
 			colors: {
 				xbox: '#47FF47',
-				'nav-primary': '#141414',
 				primary: '#292929',
+				secondary: '#b8b8b8',
+				'nav-primary': '#141414',
 			},
 		},
 	},

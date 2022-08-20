@@ -8,7 +8,7 @@
 	];
 </script>
 
-<nav class="w-full">
+<nav class="sticky top-0 w-full z-50">
 	<ul class="flex flex-wrap justify-around items-center text-2xl h-16 bg-nav-primary">
 		{#each categories as category, i}
 				<li>
