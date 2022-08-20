@@ -2,6 +2,7 @@
   import Navbar from "./components/Navbar.svelte";
   import XboxInfo from "./components/XboxInfo.svelte";
   import XboxSkin from "./components/XboxSkin.svelte";
+  import Footer from "./components/Footer.svelte";
 
   import xbox_logo from '../assets/main/xbox.png';
   import series_x from '../assets/main/xbox series x.webp';
@@ -67,4 +68,6 @@
 		
 		<button class="w-60 p-5 bg-[#323232] hover:bg-nav-primary text-white text-2xl font-bold rounded-xl transition duration-200">Purchase Now</button>
 	</div>
+
+	<Footer image={xbox_logo} />
 </section>
